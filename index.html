@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Weather app</h2>
+    <br /><br />
+    <div id="input">
+      <input
+        type="text"
+        placeholder="Enter the location "
+      id="location"
+      />
+      <button onclick="fetchWeather()">
+        Get information
+      </button>
+      <br />
+    </div>
+
+    <div
+      id="weather"
+      id="weather"
+      style="
+        display: none;
+     
+      "
+    >
+      <h3 id="city"></h3>
+      <br />
+      <img id="iconw" src="" alt="" />
+      <br />
+      <p id="temperature"></p>
+      <br />
+      <p id="information"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
